@@ -25,3 +25,8 @@ To run the game locally:
 ```bash
 git clone https://github.com/shaykotselim/tic-tac-toe.git
 
+### Step 2: Navigate to the Project Directory
+```bash
+cd tic-tac-toe
+
+
