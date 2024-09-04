@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: bisque;
+  background-color: lightsteelblue;
   text-align: center;
   /* display: flex;
   justify-content: center;
@@ -32,15 +32,50 @@ body {
   width: 18vmin;
   border-radius: 0.5rem;
   border: none;
-  box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   font-size: 8vmin;
   color: blue;
+  background-color: white;
 }
-#resetbtn{
-    border: none;
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color:black ;
-    color: white;
-    border-radius: 0.5rem;
+#resetbtn {
+  border: none;
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+#new-btn {
+  border: none;
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+#msg{
+    color: #ffff;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+   display: none; 
+}
+.main-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
